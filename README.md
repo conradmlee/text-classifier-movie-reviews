@@ -1,4 +1,5 @@
 # Text Classifier: Movie Reviews
+Training a text classifier that categorizes movie reviews from the Large Movie Review Dataset @ Stanford AI Lab.
 
 ## Introduction
 We train a text classifier to categorize movie reviews from the Large Movie Review Dataset into "positive" and "negative" classes. This classifier primarily uses CountVectorizer (to tokenize and pre-process the text) and LogisticRegression (as a classifier). In addition, we plot a Confusion Matrix to visualize the results, and use GridSearchCV to find the best parameters.
